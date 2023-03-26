@@ -1,7 +1,12 @@
-﻿using Library.Sorting;
+﻿using Library.Searching;
+using Library.Sorting;
 using System.Diagnostics;
 
 Random Random = new Random();
+
+int[] ar = { 5, 3, 2, 1, 7, 9, 10, 4 };
+
+Searching.SearchHash(ar, 7);
 
 
 #region Array1
