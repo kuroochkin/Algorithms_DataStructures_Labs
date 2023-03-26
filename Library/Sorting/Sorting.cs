@@ -1,4 +1,6 @@
-﻿namespace Library.Sorting;
+﻿using System.Diagnostics;
+
+namespace Library.Sorting;
 
 public class Sorting
 {
@@ -68,4 +70,6 @@ public class Sorting
 			return j;
 		}
 	}
+
+	
 }
